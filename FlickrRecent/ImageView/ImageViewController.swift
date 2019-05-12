@@ -14,10 +14,23 @@ class ImageViewController: UIViewController {
     
     var image: UIImage?
     
+    private let minZoom: CGFloat = 0.5
+    private let maxZoom: CGFloat = 4.0
+    private var currentZoom: CGFloat = 1.0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         downloadedBigImageView.backgroundColor = .black
         downloadedBigImageView.image = image
     }
 
+    @IBAction func zoomImage(_ sender: UIPinchGestureRecognizer) {
+        currentZoom += (sender.scale - 1) * 0.3 // to slow down zoom amount
+        if currentZoom < minZoom {
+            currentZoom = minZoom
+        } else if currentZoom > maxZoom {
+            currentZoom = maxZoom
+        }
+        downloadedBigImageView.transform = CGAffineTransform(scaleX: currentZoom, y: currentZoom)
+    }
 }

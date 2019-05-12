@@ -84,8 +84,8 @@
 		847D51D92287BF8C006A4AF6 /* Flickr */ = {
 			isa = PBXGroup;
 			children = (
-				847D51D32287BF73006A4AF6 /* FlickrDataManager.swift */,
 				847D51D42287BF73006A4AF6 /* FlickrFetcher.swift */,
+				847D51D32287BF73006A4AF6 /* FlickrDataManager.swift */,
 			);
 			path = Flickr;
 			sourceTree = "<group>";
@@ -93,8 +93,8 @@
 		847D51E22287BFE1006A4AF6 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				847D51DD2287BFDC006A4AF6 /* CollectionViewCell.swift */,
 				847D51DE2287BFDC006A4AF6 /* CollectionViewController.swift */,
+				847D51DD2287BFDC006A4AF6 /* CollectionViewCell.swift */,
 				847D51DC2287BFDB006A4AF6 /* HeaderCollectionReusableView.swift */,
 			);
 			path = CollectionView;
@@ -103,8 +103,8 @@
 		847D51E72287C008006A4AF6 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				847D51E32287C002006A4AF6 /* TableViewCell.swift */,
 				847D51E42287C002006A4AF6 /* TableViewController.swift */,
+				847D51E32287C002006A4AF6 /* TableViewCell.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
