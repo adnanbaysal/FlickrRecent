@@ -29,6 +29,9 @@ class TableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         bounds.size.height = 100
+        
+        tableCellLabel.contentMode = .scaleToFill
+        tableCellLabel.numberOfLines = 0
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

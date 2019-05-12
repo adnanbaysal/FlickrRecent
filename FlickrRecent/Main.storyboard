@@ -35,8 +35,8 @@
                                                 <constraint firstAttribute="width" constant="100" id="LL8-GR-LWx"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xDl-wx-O0C">
-                                            <rect key="frame" x="113" y="10" width="193" height="89.666666666666671"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" preferredMaxLayoutWidth="193" translatesAutoresizingMaskIntoConstraints="NO" id="xDl-wx-O0C">
+                                            <rect key="frame" x="112.99999999999999" y="10" width="37.333333333333329" height="89.666666666666671"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
@@ -56,13 +56,11 @@
                                         <constraint firstItem="2jC-jR-Dch" firstAttribute="leading" secondItem="GmI-nc-fPX" secondAttribute="leadingMargin" constant="-15" id="0bK-yr-p0s"/>
                                         <constraint firstItem="xDl-wx-O0C" firstAttribute="centerY" secondItem="GmI-nc-fPX" secondAttribute="centerY" id="4yV-oS-mY0"/>
                                         <constraint firstItem="xDl-wx-O0C" firstAttribute="top" secondItem="GmI-nc-fPX" secondAttribute="topMargin" constant="-1" id="996-yZ-OyL"/>
-                                        <constraint firstItem="9ia-4w-ljE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="xDl-wx-O0C" secondAttribute="trailing" constant="8" symbolic="YES" id="A7Z-Dm-KNV"/>
                                         <constraint firstAttribute="bottom" secondItem="9ia-4w-ljE" secondAttribute="bottom" constant="39.333333333333343" id="Hkp-PK-eY6"/>
                                         <constraint firstItem="2jC-jR-Dch" firstAttribute="top" secondItem="GmI-nc-fPX" secondAttribute="topMargin" constant="-6" id="P0D-Da-AaM"/>
                                         <constraint firstAttribute="trailing" secondItem="9ia-4w-ljE" secondAttribute="trailing" constant="20" id="eRC-kb-rVj"/>
                                         <constraint firstItem="9ia-4w-ljE" firstAttribute="top" secondItem="GmI-nc-fPX" secondAttribute="top" constant="40" id="qry-bE-kRj"/>
                                         <constraint firstItem="xDl-wx-O0C" firstAttribute="leading" secondItem="2jC-jR-Dch" secondAttribute="trailing" constant="8" id="viA-jq-wzD"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="xDl-wx-O0C" secondAttribute="trailing" constant="88" id="zrF-Mh-nZP"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.0048976840100000002" green="0.0011391306449999999" blue="0.00095564844399999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

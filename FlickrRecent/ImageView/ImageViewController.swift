@@ -14,7 +14,7 @@ class ImageViewController: UIViewController {
     
     var image: UIImage?
     
-    private let minZoom: CGFloat = 0.5
+    private let minZoom: CGFloat = 1.0
     private let maxZoom: CGFloat = 4.0
     private var currentZoom: CGFloat = 1.0
     
