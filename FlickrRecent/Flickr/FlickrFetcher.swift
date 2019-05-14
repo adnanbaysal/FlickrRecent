@@ -11,7 +11,7 @@ import UIKit
 
 class FlickrFetcher {
     // Change this flickr request URL daily, from : https://www.flickr.com/services/api/explore/?method=flickr.photos.getRecent
-    private let requestURLString = "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=fc00137457f82899c4f4f0fe5e25e851&per_page=21&page=1&format=json&nojsoncallback=1&auth_token=72157708409712155-45fcb41be5c7bb81&api_sig=634d39e1c2bdfb04d860c020d5e49af6"
+    private let requestURLString = "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=2e04668a4a20e80ff62bf2321ca9696f&per_page=21&page=1&format=json&nojsoncallback=1&auth_token=72157708584586814-cf712c5004a0f651&api_sig=b12bae7a4d885bfa160067903806bcb3"
     
     var photoURLs: [URL]!
     var photos: [UIImage] = []
